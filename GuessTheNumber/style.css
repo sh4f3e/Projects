@@ -19,12 +19,9 @@ header {
   border-bottom: 7px solid #eee;
 }
 .again {
-  font-size: 2rem;
   position: absolute;
   left: 2rem;
   top: 2rem;
-  padding: 2rem 3rem;
-  font-family: inherit;
 }
 .between {
   position: absolute;
@@ -53,4 +50,48 @@ h1 {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
+}
+main {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #eee;
+}
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+.input-number {
+  background-color: #222;
+  color: #eee;
+  border: 3.5px solid #eee;
+  padding: 2.5rem 3rem;
+  width: 25rem;
+  font-size: 4rem;
+  display: block;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: inherit;
+}
+.btn {
+  font-size: 2rem;
+  padding: 2rem 3rem;
+  font-family: inherit;
+}
+.btn:hover {
+  background-color: #ccc;
+}
+.guessing {
+  margin-bottom: 8rem;
+  height: 3rem;
+}
+.score {
+  margin-bottom: 2rem;
 }
