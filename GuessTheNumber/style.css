@@ -69,7 +69,7 @@ main {
   font-size: 2rem;
 }
 .input-number {
-  background-color: #222;
+  background-color: inherit;
   color: #eee;
   border: 3.5px solid #eee;
   padding: 2.5rem 3rem;
@@ -92,6 +92,6 @@ main {
   margin-bottom: 8rem;
   height: 3rem;
 }
-.score {
+.Score {
   margin-bottom: 2rem;
 }
